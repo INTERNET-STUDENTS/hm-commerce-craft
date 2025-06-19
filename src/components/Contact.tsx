@@ -1,10 +1,9 @@
-
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Phone, Mail, MessageSquare, MapPin, Clock, CheckCircle } from 'lucide-react';
+import { Phone, Mail, MessageSquare, MapPin, Clock, CheckCircle, Award } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
