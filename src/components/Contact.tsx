@@ -165,7 +165,7 @@ const Contact = () => {
               <div className="space-y-3">
                 <div className="flex justify-between items-center">
                   <span className="font-inter">Response Time</span>
-                  <span className="font-inter font-semibold">< 2 Hours</span>
+                  <span className="font-inter font-semibold">&lt; 2 Hours</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="font-inter">Success Rate</span>
