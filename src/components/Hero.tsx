@@ -161,7 +161,7 @@ const Hero = () => {
               {/* Floating stat cards */}
               <div className="absolute -top-4 -right-4 bg-white rounded-xl p-4 shadow-lg animate-float">
                 <div className="flex items-center space-x-2">
-                  <stats[currentStat].icon size={20} className="text-primary" />
+                  {React.createElement(stats[currentStat].icon, { size: 20, className: "text-primary" })}
                   <div>
                     <div className="text-lg font-bold text-primary">{stats[currentStat].value}</div>
                     <div className="text-xs text-gray-600">{stats[currentStat].label}</div>
